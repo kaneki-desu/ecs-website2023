@@ -5,8 +5,8 @@
 
 
 #root {
-    /* background: linear-gradient(180deg, #0e005c 21.58%, #02aadd, #06B3ED, #0A96CF, #043a57); */
-    background:  #0e005c;
+    /* background: linear-gradient(to bottom, #000000,#000000, #2403e0); */
+    background:  #030016;
     min-height: 100vh;
     overflow-x: hidden;
     padding: 0;
@@ -16,3 +16,28 @@
 html {
     overflow-x: hidden;
 }
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+ .gradient{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background:linear-gradient(#060027, #0600276d,#060027);
+    opacity: 1;
+ }
+ #bgImg{
+    background: #060027;
+ }
